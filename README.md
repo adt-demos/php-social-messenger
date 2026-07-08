@@ -136,37 +136,25 @@ This project is open-source and available under the **MIT License**.
         </a>
       </td>
       <td>
-        <a href="https://www.linkedin.com/in/iqbolshoh/" target="_blank">
-          <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/linkedin.svg"
-               height="40" width="40" alt="LinkedIn" title="LinkedIn" />
-        </a>
-      </td>
-      <td>
-        <a href="https://t.me/iqbolshoh_777" target="_blank">
+        <a href="https://t.me/templates_uz_support" target="_blank">
           <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/telegram.svg"
                height="40" width="40" alt="Telegram" title="Telegram" />
         </a>
       </td>
       <td>
-        <a href="https://wa.me/998997799333" target="_blank">
+        <a href="https://wa.me/998776030033" target="_blank">
           <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/whatsapp.svg"
                height="40" width="40" alt="WhatsApp" title="WhatsApp" />
         </a>
       </td>
       <td>
-        <a href="https://instagram.com/iqbolshoh_777" target="_blank">
+        <a href="https://instagram.com/iqbolshoh.dev" target="_blank">
           <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
                height="40" width="40" alt="Instagram" title="Instagram" />
         </a>
       </td>
       <td>
-        <a href="https://x.com/iqbolshoh_777" target="_blank">
-          <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"
-               height="40" width="40" alt="X" title="X (Twitter)" />
-        </a>
-      </td>
-      <td>
-        <a href="https://www.youtube.com/@Iqbolshoh_777" target="_blank">
+        <a href="https://www.youtube.com/@Iqbolshoh_dev" target="_blank">
           <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg"
                height="40" width="40" alt="YouTube" title="YouTube" />
         </a>
