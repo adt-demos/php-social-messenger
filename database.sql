@@ -156,5 +156,5 @@ VALUES
     (1, 2, "Yes, Laravel is a very strong framework. It will be an ideal choice for you!", "read"),
     (2, 1, "I really appreciate your help. I might have more questions later.", "read"),
     (1, 2, "Of course, I’m always ready to help. I look forward to you continuing to use my services.", "read"),
-    (1, 2, "If you have any more questions or need assistance, feel free to contact me anytime. I'm always ready to help. You can reach me through the following channels:\n\nInstagram: @iqbolshoh_777\nTelegram: @iqbolshoh_777\nX: @iqbolshoh_777\nTikTok: @iqbolshoh_777\nYouTube: @iqbolshoh_777\nEmail: iilhomjonov777@gmail.com\nWebsite: iqbolshoh.uz", "read");
+    (1, 2, "If you have any more questions or need assistance, feel free to contact me anytime. I'm always ready to help. You can reach me through the following channels:\n\nWebsite: iqbolshoh.uz\nEmail: iilhomjonov777@gmail.com\nGitHub: github.com/iqbolshoh\nTelegram: t.me/templates_uz_support\nWhatsApp: wa.me/998776030033\nInstagram: instagram.com/iqbolshoh.dev\nYouTube: youtube.com/@Iqbolshoh_dev", "read");
 
