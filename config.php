@@ -19,7 +19,6 @@ class Database
         $ca_cert="/var/www/outside_webroot/DBaaS_CERT";
 
         if(file_exists($ca_cert)) {
-
                 $conn->ssl_set(NULL, NULL, "$ca_cert", NULL, NULL);
         }
 
@@ -36,12 +35,11 @@ class Database
 
         $this->conn = $conn;
 
-
-        $this->conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+/*        $this->conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
         if ($this->conn->connect_error) {
             die("Database connection error: " . $this->conn->connect_error);
-        }
+        }*/
     }
 
     public function __destruct()
