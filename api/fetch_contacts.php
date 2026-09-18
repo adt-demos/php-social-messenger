@@ -59,10 +59,10 @@ $allUsers = $query->executeQuery(
 if ($allUsers && $allUsers->num_rows > 0) {
     $result = [];
     while ($user = $allUsers->fetch_assoc()) {
-       $unreadMessagesQuery = " 
+       $unreadMessagesQuery = ' 
             SELECT COUNT(*) AS unread_messages 
             FROM messages 
-            WHERE receiver_id = ? AND sender_id = ? AND status = 'unread'";
+            WHERE receiver_id = ? AND sender_id = ? AND status = "unread"';
         $unreadMessages = $query->executeQuery($unreadMessagesQuery, [$sender_id, $user['user_id']], 'ii')->get_result()->fetch_assoc();
         $user['unread_messages'] = $unreadMessages['unread_messages'] ?? 0;
         $result[] = $user;
