@@ -35,11 +35,8 @@ class Database
 
         $this->conn = $conn;
 
-/*        $this->conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+        mysqli_query($conn, "SET SESSION sql_mode = ''");
 
-        if ($this->conn->connect_error) {
-            die("Database connection error: " . $this->conn->connect_error);
-        }*/
     }
 
     public function __destruct()
