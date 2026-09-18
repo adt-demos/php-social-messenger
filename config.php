@@ -16,19 +16,19 @@ class Database
                 die("mysqli_init failed");
         }
 
-        $ca_cert="XXXXHOMEXXXX/runtime/DBaaS_CERT";
+        $ca_cert="/var/www/outside_webroot/DBaaS_CERT";
 
         if(file_exists($ca_cert)) {
-                $conn->ssl_set(NULL, NULL, '$ca_cert', NULL, NULL);
+
+                $conn->ssl_set(NULL, NULL, "$ca_cert", NULL, NULL);
         }
 
-        $result = explode(":",  $DB_SERVER);
+        $result = explode(":",  DB_SERVER);
 
-        define("DB_SERVER",$result[0]);
+        define("DB_SERVER_TLS",$result[0]);
         define("DB_PORT", $result[1]);
 
-        // 3. Establish the secure connection
-        $success = $conn->real_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME,DB_PORT,NULL,MYSQLI_CLIENT_SSL);
+        $success = $conn->real_connect(DB_SERVER_TLS, DB_USERNAME, DB_PASSWORD, DB_NAME,DB_PORT,NULL,MYSQLI_CLIENT_SSL);
 
         if (!$success) {
                 die("Connect Error (" . mysqli_connect_errno() . ") " . mysqli_connect_error());
@@ -37,11 +37,11 @@ class Database
         $this->conn = $conn;
 
 
-      /*  $this->conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+        $this->conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
         if ($this->conn->connect_error) {
             die("Database connection error: " . $this->conn->connect_error);
-        }*/
+        }
     }
 
     public function __destruct()
