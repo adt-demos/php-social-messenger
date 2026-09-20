@@ -19,6 +19,7 @@ class Database
         $ca_cert="/var/www/outside_webroot/DBaaS_CERT";
 
         if(file_exists($ca_cert)) {
+                $conn->options(MYSQLI_OPT_SSL_VERIFY_SERVER_CERT, true);
                 $conn->ssl_set(NULL, NULL, "$ca_cert", NULL, NULL);
         }
 
